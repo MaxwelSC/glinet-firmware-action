@@ -18,7 +18,7 @@ on:
         - target_mt7981_gl-mt3000
         
       ui:
-        description: '是否集成 GLinet UI'
+        description: '勾选将打包官方UI'
         required: false
         type: boolean
         
