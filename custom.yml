@@ -9,7 +9,6 @@ packages:
   - luci-app-openclash
   - luci-app-vssr
   - luci-theme-argon
-  - luci-app-argon-config
   - luci-app-ttyd
 
 
