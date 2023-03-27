@@ -1,12 +1,16 @@
 feeds:
   - name: custom
     path: ../feeds_dir/custom
-  - name: helloworld
-    uri: https://github.com/fw876/helloworld.git
-    branch: master
-packages:
-  - luci-app-mwan3
+  - name: AoThen_Packages
+    uri: https://github.com/AoThen/Openwrt-Packages.git
+    branch: feeds
 
+packages:
+  - luci-app-openclash
+  - luci-app-vssr
+  - luci-theme-argon
+  - luci-app-argon-config
+  - luci-app-ttyd
 
 
 diffconfig: |
