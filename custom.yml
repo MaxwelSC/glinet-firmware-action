@@ -4,18 +4,19 @@ feeds:
   - name: AoThen_Packages
     uri: https://github.com/AoThen/Openwrt-Packages.git
     branch: feeds
-  - name: Kenzok8_Packages
-    uri: https://github.com/kenzok8/small-package.git
-    branch: main
+  #- name: Kenzok8_Packages
+  #  uri: https://github.com/kenzok8/small-package.git
+  #  branch: main
 
 packages:
+  - luci-theme-argon
   - luci-app-ttyd
   - luci-app-openclash
-  #- luci-app-ssr-plus
   - luci-app-vssr
-  - luci-app-wizard
-  - luci-app-poweroff
-  - luci-theme-argon 
+  #- luci-app-ssr-plus
+  #- luci-app-wizard
+  #- luci-app-poweroff
+   
   
   
 
