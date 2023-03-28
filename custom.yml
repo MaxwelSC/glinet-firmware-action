@@ -1,12 +1,12 @@
 feeds:
   - name: custom
     path: ../feeds_dir/custom
-  - name: AoThen_Packages
-    uri: https://github.com/AoThen/Openwrt-Packages.git
-    branch: feeds
-  #- name: Kenzok8_Packages
-  #  uri: https://github.com/kenzok8/small-package.git
-  #  branch: main
+  #- name: AoThen_Packages
+  #  uri: https://github.com/AoThen/Openwrt-Packages.git
+  #  branch: feeds
+  - name: Kenzok8_Packages
+    uri: https://github.com/kenzok8/small-package.git
+    branch: main
 
 packages:
   - luci-app-openclash
