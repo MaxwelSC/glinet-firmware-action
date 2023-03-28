@@ -9,9 +9,13 @@ feeds:
     branch: main
 
 packages:
-  - luci-app-openclash
-  - luci-app-vssr
   - luci-app-ttyd
+  - luci-app-openclash
+  - luci-app-ssr-plus
+  #- luci-app-vssr
+  - luci-app-wizard
+  - luci-app-poweroff
+  
   
 
 diffconfig: |
