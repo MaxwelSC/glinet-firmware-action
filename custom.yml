@@ -13,11 +13,11 @@ packages:
   - luci-app-poweroff
   - luci-app-ttyd
   - luci-app-openclash
+  - luci-app-watchcat
   
   #- luci-app-vssr
   #- luci-app-ssr-plus
-
-    #- luci-theme-argon
+  #- luci-theme-argon
   
 diffconfig: |
   CONFIG_PACKAGE_wpad-basic=n
