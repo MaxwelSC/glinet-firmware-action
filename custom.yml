@@ -16,9 +16,8 @@ packages:
   - luci-app-poweroff
   - luci-app-ttyd
   - luci-app-watchcat
-  - luci-app-openclash
-  
-  #- luci-app-vssr
+  - luci-app-openclash  
+  - luci-app-vssr
   #- luci-app-ssr-plus
   #- luci-theme-argon
   
