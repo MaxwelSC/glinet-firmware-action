@@ -1,14 +1,13 @@
 bulid gl-mt3000
 ./build.sh ~
 
-安装插件如有依赖缺失可参考如下进行修正:
+安装自定义插件如报依赖缺失
+方法一 更新软件源后直接搜索对应依赖安装 
+方法二 命令行安装缺失依赖
 
-方法一：更新软件源后搜索对应依赖安装
-方法二：命令行安装缺失依赖
-
-例如报错: module 'luci.cbi' not found 
+报错: module 'luci.cbi' not found 
 opkg install luci luci-base luci-compat
 
-例如报错: module 'luci.model.ipkg' not found
+报错: module 'luci.model.ipkg' not found
 opkg install luci-lib-ipkg
 
