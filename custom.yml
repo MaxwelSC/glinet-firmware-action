@@ -7,9 +7,9 @@ feeds:
   - name: kenzok8_packages
     uri: https://github.com/kenzok8/small-package.git
     branch: main
-  - name: immortalwrt_luci
-    uri: https://github.com/immortalwrt/luci.git
-    branch: openwrt-21.02
+  #- name: immortalwrt_luci
+  #  uri: https://github.com/immortalwrt/luci.git
+  #  branch: openwrt-21.02
 
 packages:
   - luci-app-wizard
@@ -17,10 +17,10 @@ packages:
   - luci-app-ttyd
   - luci-app-watchcat
   - luci-app-openclash  
-  - luci-app-vssr
+  #- luci-app-vssr
   #- luci-app-ssr-plus
-  - luci-theme-argon
-  - luci-app-argon-config
+  #- luci-theme-argon
+  #- luci-app-argon-config
   
 diffconfig: |
   CONFIG_PACKAGE_wpad-basic=n
