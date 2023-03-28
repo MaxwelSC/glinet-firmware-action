@@ -16,10 +16,7 @@ packages:
   #- luci-app-ssr-plus
   #- luci-app-wizard
   #- luci-app-poweroff
-   
   
-  
-
 diffconfig: |
   CONFIG_PACKAGE_wpad-basic=n
   CONFIG_PACKAGE_wpad=n
