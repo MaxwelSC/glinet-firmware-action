@@ -19,7 +19,8 @@ packages:
   - luci-app-openclash  
   - luci-app-vssr
   #- luci-app-ssr-plus
-  #- luci-theme-argon
+  - luci-theme-argon
+  - luci-app-argon-config
   
 diffconfig: |
   CONFIG_PACKAGE_wpad-basic=n
