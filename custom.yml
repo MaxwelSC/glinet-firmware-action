@@ -12,8 +12,8 @@ packages:
   - luci-app-wizard
   - luci-app-poweroff
   - luci-app-ttyd
-  - luci-app-openclash
   - luci-app-watchcat
+  - luci-app-openclash
   
   #- luci-app-vssr
   #- luci-app-ssr-plus
