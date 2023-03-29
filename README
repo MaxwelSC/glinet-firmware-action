@@ -1,9 +1,11 @@
+---------------
+
 品牌：GL·inet
 型号：MT3000 
 固件：精简自用
 
 # 特别鸣谢 https://github.com/luochongjun/glinet-firmware-action
-
+---------------------------------------------------------------
 # 自定义插件如遇依赖缺失（如下方法二选一）
   更新软件源后搜索对应依赖安装 
   命令行安装缺失依赖 例如：
@@ -12,7 +14,7 @@
   opkg install luci luci-base luci-compat
 - module 'luci.model.ipkg' not found
   opkg install luci-lib-ipkg
-
+---------------------------------------
 # 路由体验
   
   插件尽量精简 主题尽量原生
