@@ -19,10 +19,10 @@ packages:
   - luci-app-upnp
   - luci-lib-ipkg
   - luci-app-openclash
-  - luci-app-vssr
-  #- luci-app-ssr-plus
-  - luci-theme-argon
-  - luci-app-argon-config
+  #- luci-app-vssr
+  - luci-app-ssr-plus
+  #- luci-theme-argon
+  #- luci-app-argon-config
   
 diffconfig: |
   CONFIG_PACKAGE_wpad-basic=n
