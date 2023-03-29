@@ -12,8 +12,8 @@ feeds:
     branch: openwrt-21.02
 
 packages:
-  - luci-app-ttyd
   - luci-lib-ipkg
+  - luci-app-ttyd
   - luci-app-openclash
   - luci-app-ssr-plus
   #- luci-app-wizard
