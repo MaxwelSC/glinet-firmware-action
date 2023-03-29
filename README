@@ -1,8 +1,10 @@
-GL-MT3000 自用固件定制
+品牌：GL·inet
+型号：MT3000 
+固件：科学自用
 
 # 特别鸣谢 https://github.com/luochongjun/glinet-firmware-action
 
-# 定义安装插件如遇依赖缺失（解决方法二选一）
+# 自定义插件如遇依赖缺失（如下方法二选一）
   更新软件源后搜索对应依赖安装 
   命令行安装缺失依赖 例如：
 
@@ -11,8 +13,7 @@ GL-MT3000 自用固件定制
 - module 'luci.model.ipkg' not found
   opkg install luci-lib-ipkg
 
-# 关于 GL-MT3000 的体验
-  综合性能不强
-  插件尽量精简
-  主题尽量原生
-  适合外出使用
+# 路由体验反馈 
+  
+  插件尽量精简 主题尽量原生
+  综合性能不强 适合外出使用
