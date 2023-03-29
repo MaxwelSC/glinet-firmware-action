@@ -1,18 +1,12 @@
 📌GL-MT3000 自用固件定制
 
-[![Build GL.INET MT3000](https://github.com/MaxwelSC/glinet-firmware-action/actions/workflows/build-glinet.yml/badge.svg)](https://github.com/MaxwelSC/glinet-firmware-action/actions/workflows/build-glinet.yml)
-
-固件版本OpenWrt 21.02
-
-内核版本5.4.211
-
-4.2.0 package
-
-# 编译包
+固件版本OpenWrt 21.02 | 内核版本5.4.211 | Package 4.2.0 | 
 
 
-# 问题说明
--自定义安装插件如遇依赖缺失
+# 特别鸣谢
+https://github.com/luochongjun/glinet-firmware-action
+
+# 问题说明 - 自定义安装插件如遇依赖缺失
 -方法一 更新软件源后直接搜索对应依赖安装 
 -方法二 命令行安装缺失依赖 
 
@@ -21,6 +15,3 @@
 - opkg install luci luci-base luci-compat
 - module 'luci.model.ipkg' not found
 - opkg install luci-lib-ipkg
-
-# 特别鸣谢
-https://github.com/luochongjun/glinet-firmware-action
