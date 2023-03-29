@@ -12,12 +12,12 @@ feeds:
     branch: openwrt-21.02
 
 packages:
-  #- luci-app-wizard
-  #- luci-app-poweroff
   - luci-app-ttyd
   - luci-lib-ipkg
   - luci-app-openclash
   - luci-app-ssr-plus
+  #- luci-app-wizard
+  #- luci-app-poweroff
 
   
 diffconfig: |
