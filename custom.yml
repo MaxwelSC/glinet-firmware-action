@@ -4,12 +4,12 @@ feeds:
   #- name: aoThen_packages
   #  uri: https://github.com/AoThen/Openwrt-Packages.git
   #  branch: feeds
-  - name: kenzok8_packages
-    uri: https://github.com/kenzok8/small-package.git
-    branch: main
-  #- name: immortalwrt_luci
-  #  uri: https://github.com/immortalwrt/luci.git
-  #  branch: openwrt-21.02
+  #- name: kenzok8_packages
+  #  uri: https://github.com/kenzok8/small-package.git
+  #  branch: main
+  - name: immortalwrt_luci
+    uri: https://github.com/immortalwrt/luci.git
+    branch: openwrt-21.02
 
 packages:
   - luci-app-wizard
