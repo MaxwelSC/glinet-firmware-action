@@ -1,6 +1,4 @@
-
-# Actions-GL-MT2500
-📌GL-MT2500自用固件定制
+📌GL-MT3000 自用固件定制
 
 [![Build GL.INET MT3000](https://github.com/MaxwelSC/glinet-firmware-action/actions/workflows/build-glinet.yml/badge.svg)](https://github.com/MaxwelSC/glinet-firmware-action/actions/workflows/build-glinet.yml)
 
@@ -11,17 +9,7 @@
 4.2.0 package
 
 # 编译包
-- 因为固件自带adguardhome的原因就不额外编译了   [**(路由器地址)**](http://192.168.8.1/#/adguardhome)
-- luci-theme-argon主题和设置
-- openclash **(旁路由成功)**
-- helloworld **(旁路由成功,经常网络波动,疑似自动切换节点检测导致)**
-- passwall **(旁路由成功,内存异常,使用前务必更新全部规则!)**
-- aliyundrive-webdav
-- luci-app-alist **(开放外网访问)**
-- ~~luci-app-broadbandacc~~
-- luci-app-serverchan
-- netspeedtest **(和istore冲突)**
-- ramfree
+
 
 # 问题说明
 -自定义安装插件如遇依赖缺失
@@ -31,25 +19,8 @@
 -常见luci依赖报错
 - module 'luci.cbi' not found 
 - opkg install luci luci-base luci-compat
-
 - module 'luci.model.ipkg' not found
 - opkg install luci-lib-ipkg
 
 # 特别鸣谢
 https://github.com/luochongjun/glinet-firmware-action
-
-# 附加资源
-> https://github.com/gl-inet/gl-infra-builder
->
-> https://github.com/gl-inet/glinet4.x
-> 
-> [P3TERX](https://p3terx.com)
-> 
-> https://github.com/easimon/maximize-build-space
->
-> https://github.com/AoThen/Openwrt-Packages.git
->
-> https://github.com/kenzok8/small-package
->
-> https://github.com/immortalwrt/luci
-> 
