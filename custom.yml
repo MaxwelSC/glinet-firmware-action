@@ -1,9 +1,9 @@
 feeds:
   - name: custom
     path: ../feeds_dir/custom
-  #- name: aoThen_packages
-  #  uri: https://github.com/AoThen/Openwrt-Packages.git
-  #  branch: feeds
+  - name: aoThen_packages
+    uri: https://github.com/AoThen/Openwrt-Packages.git
+    branch: feeds
   #- name: kenzok8_packages
   #  uri: https://github.com/kenzok8/small-package.git
   #  branch: main
@@ -19,10 +19,10 @@ packages:
   - luci-app-upnp
   - luci-lib-ipkg
   - luci-app-openclash
-  #- luci-app-vssr
+  - luci-app-vssr
   - luci-app-ssr-plus
-  #- luci-theme-argon
-  #- luci-app-argon-config
+  - luci-theme-argon
+  - luci-app-argon-config
   
 diffconfig: |
   CONFIG_PACKAGE_wpad-basic=n
