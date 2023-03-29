@@ -4,12 +4,12 @@ GL-MT3000 自用固件定制
 https://github.com/luochongjun/glinet-firmware-action
 
 # 问题说明 
-- 自定义安装插件如遇依赖缺失
-- 方法一 更新软件源后直接搜索对应依赖安装 
-- 方法二 命令行安装缺失依赖 
+  自定义安装插件如遇依赖缺失解决方法二选一
+- 更新软件源后直接搜索对应依赖安装 
+- 命令行安装缺失依赖 
 
 # 常见luci依赖报错
 - module 'luci.cbi' not found 
-- opkg install luci luci-base luci-compat
+  opkg install luci luci-base luci-compat
 - module 'luci.model.ipkg' not found
-- opkg install luci-lib-ipkg
+  opkg install luci-lib-ipkg
