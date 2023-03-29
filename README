@@ -13,7 +13,7 @@
 - module 'luci.model.ipkg' not found
   opkg install luci-lib-ipkg
 
-# 路由体验反馈 
+# 路由体验
   
   插件尽量精简 主题尽量原生
   综合性能不强 适合外出使用
