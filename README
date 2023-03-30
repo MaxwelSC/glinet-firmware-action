@@ -4,6 +4,12 @@
 --------------------------------------------------------------
 # 特别鸣谢 https://github.com/luochongjun/glinet-firmware-action
 ---------------------------------------------------------------
+# 默认包含
+  - luci-lib-ipkg
+  - luci-app-ttyd
+  - luci-app-openclash
+  - luci-app-ssr-plus
+
 # 自定义插件如遇依赖缺失（二选一）
   更新软件源后搜索对应依赖安装 
   命令行安装缺失依赖
